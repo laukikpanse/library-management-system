@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2200C167-A47E-418A-8749-444C79368D58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DB_LIBRARY.My.MyApplication</StartupObject>
+    <RootNamespace>DB_LIBRARY</RootNamespace>
+    <AssemblyName>DB LIBRARY</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\EthanHunt\Desktop\DB LIBRARY\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>.\</OutputPath>
+    <DocumentationFile>DB LIBRARY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DocumentationFile>DB LIBRARY.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E2638D1EC3DB063BA427F5C474C75DFB96EDA9FE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DB LIBRARY_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN_HOME.Designer.vb">
+      <DependentUpon>ADMIN_HOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_HOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN_LOGIN.Designer.vb">
+      <DependentUpon>ADMIN_LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN_LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALL_AUTHORS.Designer.vb">
+      <DependentUpon>ALL_AUTHORS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALL_AUTHORS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALL_BOOKS.Designer.vb">
+      <DependentUpon>ALL_BOOKS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALL_BOOKS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALL_PUBLISHERS.Designer.vb">
+      <DependentUpon>ALL_PUBLISHERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALL_PUBLISHERS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ALL_USERS.Designer.vb">
+      <DependentUpon>ALL_USERS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALL_USERS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AUTHOR_DETAILS.Designer.vb">
+      <DependentUpon>AUTHOR_DETAILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AUTHOR_DETAILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AVERAGE_FINE.Designer.vb">
+      <DependentUpon>AVERAGE_FINE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AVERAGE_FINE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BOOK_ISSUE_RECORD.Designer.vb">
+      <DependentUpon>BOOK_ISSUE_RECORD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BOOK_ISSUE_RECORD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BRANCH_INFO.Designer.vb">
+      <DependentUpon>BRANCH_INFO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BRANCH_INFO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COUNT.Designer.vb">
+      <DependentUpon>COUNT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="COUNT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DELETE_USER.Designer.vb">
+      <DependentUpon>DELETE_USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DELETE_USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINE_DETAILS.Designer.vb">
+      <DependentUpon>FINE_DETAILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FINE_DETAILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODIFY_BOOK.Designer.vb">
+      <DependentUpon>MODIFY_BOOK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MODIFY_BOOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODIFY_USER.Designer.vb">
+      <DependentUpon>MODIFY_USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MODIFY_USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PUBLISHER_DETAILS.Designer.vb">
+      <DependentUpon>PUBLISHER_DETAILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PUBLISHER_DETAILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESERVED_BOOK.Designer.vb">
+      <DependentUpon>RESERVED_BOOK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RESERVED_BOOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RETURN_BOOK.Designer.vb">
+      <DependentUpon>RETURN_BOOK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RETURN_BOOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELECT_USER.Designer.vb">
+      <DependentUpon>SELECT_USER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELECT_USER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TOP_BOOKS.Designer.vb">
+      <DependentUpon>TOP_BOOKS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TOP_BOOKS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TOP_BORROW.Designer.vb">
+      <DependentUpon>TOP_BORROW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TOP_BORROW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USDATADataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet111.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet111.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USDATADataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>USDATADataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="USER_ADD.Designer.vb">
+      <DependentUpon>USER_ADD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER_ADD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER_HOME.Designer.vb">
+      <DependentUpon>USER_HOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER_HOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER_LOGIN.Designer.vb">
+      <DependentUpon>USER_LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER_LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USER_REGISTRATION.Designer.vb">
+      <DependentUpon>USER_REGISTRATION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USER_REGISTRATION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADMIN_HOME.resx">
+      <DependentUpon>ADMIN_HOME.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN_LOGIN.resx">
+      <DependentUpon>ADMIN_LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL_AUTHORS.resx">
+      <DependentUpon>ALL_AUTHORS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL_BOOKS.resx">
+      <DependentUpon>ALL_BOOKS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL_PUBLISHERS.resx">
+      <DependentUpon>ALL_PUBLISHERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL_USERS.resx">
+      <DependentUpon>ALL_USERS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AUTHOR_DETAILS.resx">
+      <DependentUpon>AUTHOR_DETAILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AVERAGE_FINE.resx">
+      <DependentUpon>AVERAGE_FINE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BOOK_ISSUE_RECORD.resx">
+      <DependentUpon>BOOK_ISSUE_RECORD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BRANCH_INFO.resx">
+      <DependentUpon>BRANCH_INFO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COUNT.resx">
+      <DependentUpon>COUNT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DELETE_USER.resx">
+      <DependentUpon>DELETE_USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINE_DETAILS.resx">
+      <DependentUpon>FINE_DETAILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MODIFY_BOOK.resx">
+      <DependentUpon>MODIFY_BOOK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MODIFY_USER.resx">
+      <DependentUpon>MODIFY_USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PUBLISHER_DETAILS.resx">
+      <DependentUpon>PUBLISHER_DETAILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESERVED_BOOK.resx">
+      <DependentUpon>RESERVED_BOOK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RETURN_BOOK.resx">
+      <DependentUpon>RETURN_BOOK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELECT_USER.resx">
+      <DependentUpon>SELECT_USER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TOP_BOOKS.resx">
+      <DependentUpon>TOP_BOOKS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TOP_BORROW.resx">
+      <DependentUpon>TOP_BORROW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER_ADD.resx">
+      <DependentUpon>USER_ADD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER_HOME.resx">
+      <DependentUpon>USER_HOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER_LOGIN.resx">
+      <DependentUpon>USER_LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USER_REGISTRATION.resx">
+      <DependentUpon>USER_REGISTRATION.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DB LIBRARY_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="USDATADataSet1.xsc">
+      <DependentUpon>USDATADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet1.xss">
+      <DependentUpon>USDATADataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet10.xsc">
+      <DependentUpon>USDATADataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet10.xss">
+      <DependentUpon>USDATADataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet11.xsc">
+      <DependentUpon>USDATADataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet11.xss">
+      <DependentUpon>USDATADataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet111.xsc">
+      <DependentUpon>USDATADataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet111.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet111.xss">
+      <DependentUpon>USDATADataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet12.xsc">
+      <DependentUpon>USDATADataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet12.xss">
+      <DependentUpon>USDATADataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet13.xsc">
+      <DependentUpon>USDATADataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet13.xss">
+      <DependentUpon>USDATADataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet14.xsc">
+      <DependentUpon>USDATADataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet14.xss">
+      <DependentUpon>USDATADataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet2.xsc">
+      <DependentUpon>USDATADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet2.xss">
+      <DependentUpon>USDATADataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet3.xsc">
+      <DependentUpon>USDATADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet3.xss">
+      <DependentUpon>USDATADataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet4.xsc">
+      <DependentUpon>USDATADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet4.xss">
+      <DependentUpon>USDATADataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet5.xsc">
+      <DependentUpon>USDATADataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet5.xss">
+      <DependentUpon>USDATADataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet6.xsc">
+      <DependentUpon>USDATADataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet6.xss">
+      <DependentUpon>USDATADataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet7.xsc">
+      <DependentUpon>USDATADataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet7.xss">
+      <DependentUpon>USDATADataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet8.xsc">
+      <DependentUpon>USDATADataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet8.xss">
+      <DependentUpon>USDATADataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet9.xsc">
+      <DependentUpon>USDATADataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="USDATADataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>USDATADataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="USDATADataSet9.xss">
+      <DependentUpon>USDATADataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Excel">
+      <Guid>{45541000-5750-5300-4B49-4E47534F4655}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>99</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+ if not exist "$(TargetPath).locked" if exist "$(TargetPath)" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,43 @@
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\Interop.Excel.dll
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\Interop.Office.dll
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.vbproj.ResolveComReference.cache
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.exe.config
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ADMIN_HOME.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ADMIN_LOGIN.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ALL_AUTHORS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ALL_BOOKS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ALL_PUBLISHERS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.ALL_USERS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.AUTHOR_DETAILS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.AVERAGE_FINE.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.BOOK_ISSUE_RECORD.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.COUNT.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.DELETE_USER.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.Form1.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.MODIFY_BOOK.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.Resources.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.PUBLISHER_DETAILS.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.RESERVED_BOOK.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.RETURN_BOOK.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.SELECT_USER.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.USER_ADD.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.USER_HOME.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.USER_LOGIN.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.USER_REGISTRATION.resources
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.vbproj.GenerateResource.Cache
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.exe.manifest
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.application
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.exe.manifest
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.application
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.exe
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.xml
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.pdb
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.exe
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.pdb
+C:\Users\EthanHunt\documents\visual studio 2010\Projects\DB LIBRARY\DB LIBRARY\DB LIBRARY.xml
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.MODIFY_USER.resources
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.BRANCH_INFO.resources
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.FINE_DETAILS.resources
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB LIBRARY.vbprojResolveAssemblyReference.cache
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.TOP_BORROW.resources
+C:\Users\EthanHunt\Documents\Visual Studio 2010\Projects\DB LIBRARY\DB LIBRARY\obj\x86\Debug\DB_LIBRARY.TOP_BOOKS.resources
